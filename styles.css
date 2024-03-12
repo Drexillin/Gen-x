@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border-style: hidden;
+    color: aquamarine;
+    background-color:black ;
+}
+form{
+    font-size: 16px;
+    font-family:fantasy;
+    margin-bottom:10%;
+    border-style: none;
+    margin: 20px;
+    color: bisque;
+    text-align: left;
+
+}
+label{
+    display:block;
+    margin-bottom:8px;
+}
+input,
+select,
+textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    color:blue
+}
+.container{
+    color: rgb(102, 255, 0);
+    display: flex;
+    flex:;
+}
+main{
+    display: flex;
+    flex: 5;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 20px;
+    flex-direction: row;
+    background-color: blueviolet;
+}
+aside{
+    background-color: blue;
+    margin-left: 700px;
+}
