@@ -47,3 +47,65 @@ aside{
     background-color: blue;
     margin-left: 700px;
 }
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;    
+}
+.flex-item{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;    
+}
+.grid-item{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.content {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+/* Default styles */
+#heading {
+    color: black;
+}
+
+#description {
+    color: gold;
+}
+
+/* Media queries */
+@media screen and (max-width: 768;) {
+    #heading {
+        font-size: 24px;
+    }
+}
+
+#description {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    #heading {
+        font-size: 20px;
+    }
+}
+    
+#description {
+    font-size: 14px;
+}
+    
+}
