@@ -1,0 +1,19 @@
+body{
+    font-family: 'Times New Roman', Times, serif; 
+    color: aquamarine;  
+}
+header h1{
+   font-weight: bolder;
+   color: black;
+   id:blue;
+   class:orange;
+   element: white;
+}
+container{
+    display: flex;
+}
+item{
+    flex-grow: 1;
+}
+
+
